@@ -1,0 +1,1 @@
+export const NotFound = () => (<h2> Rota inexistente.</h2>);
