@@ -18,7 +18,7 @@ export const Playlist = () => {
                 <Card.Image src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`} />
                 <Card.Title>{movie.title}</Card.Title>
                 <PlaylistAddons>
-                    <Button onClick={() => handleRemoveItem(movie.id)} >Remover</Button>
+                    <Button onClick={() => handleRemoveItem(movie.id)} >to remove</Button>
                 </PlaylistAddons>
             </Card.Body>
         )
@@ -28,7 +28,7 @@ export const Playlist = () => {
         <>
             <h2>Playlist</h2>
             <Grid>
-                {renderedPlaylist.length === 0?'Nenhum Filme adicionado':renderedPlaylist}
+                {renderedPlaylist.length === 0?'No movies added.':renderedPlaylist}
             </Grid>
         </>
     )

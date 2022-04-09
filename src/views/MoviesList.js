@@ -20,7 +20,7 @@ export const MovieList = () => {
                 <Card.Image src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`} />
                 <Card.Title>{movie.title}</Card.Title>
                 <PlaylistAddons>
-                    <Button onClick={() => handleAddToPlaylist(movie) } >Adicionar na Playlist</Button>
+                    <Button onClick={() => handleAddToPlaylist(movie) } >Add to playlist</Button>
                 </PlaylistAddons>
             </Card.Body>
 
@@ -29,7 +29,7 @@ export const MovieList = () => {
 
     return (
         <>
-            <h2>MovieList</h2>
+            <h2>Movie List</h2>
             <Grid>
                 {renderedMovies}
             </Grid>
