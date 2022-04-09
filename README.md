@@ -10,15 +10,19 @@ Redux. Para isso, siga os seguintes passos:
 
 Utilizando o exercício da aula 03 para listagem de filmes, instale no projeto os
 seguintes pacotes:
+
 ● npm i -S redux;
+
 ● npm i -S react-redux.
 
 ## Passo 2
 
 Crie a estrutura para utilização do Redux utilizando como reducer uma “playlist”.
 Em seguida:
+
 ● Crie uma action que receba o objeto do filme a ser adicionado na playlist
 principal;
+
 ● Crie um reducer para modificar o estado global;
 
 ## Passo 3
